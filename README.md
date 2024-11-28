@@ -53,18 +53,19 @@ Ensure the following are installed on your system:
 2. **Access the App: Open your browser and navigate to http://localhost:8501**
 3. **File Structure**
 LSEGChatbot/
-│
-├── lsegchatbot.py                         # Main Streamlit application
-├── process_data.py                        # Data processing module
-├── requirements.txt                       # Python dependencies
-├── ./log/lsegchatbot.log                  # (Generated) Log file for debugging
-├── ./data/(TC3)Chatbot - stock data.json  # JSON file containing stock data
-├── ./temp/                                # Store temp data
-├── Dockerfile                             # Docker configuration file
-├── README.md                              # Project documentation
-└── .dockerignore                          # Files to exclude from Docker builds
+            │
+            ├── lsegchatbot.py                         # Main Streamlit application
+            ├── process_data.py                        # Data processing module
+            ├── requirements.txt                       # Python dependencies
+            ├── ./log/lsegchatbot.log                  # (Generated) Log file for debugging
+            ├── ./data/(TC3)Chatbot - stock data.json  # JSON file containing stock data
+            ├── ./temp/                                # Store temp data
+            ├── Dockerfile                             # Docker configuration file
+            ├── README.md                              # Project documentation
+            └── .dockerignore                          # Files to exclude from Docker builds
 
- 4. **Key Functionalities**
+ 4. **Key Functionalities**:
+    
   a. Home Menu
     - Displays a list of stock exchanges (LSEG, NASDAQ, NYSE).
     - Users can select a stock exchange to view available stocks.
