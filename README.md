@@ -1,6 +1,7 @@
 # **LSEG Stock Chatbot**
 
-A conversational chatbot built with Streamlit to provide stock information from various stock exchanges (LSEG, NASDAQ, NYSE). The app allows users to select stock exchanges, view stock data, and get stock values interactively.
+A conversational chatbot built with Streamlit to provide stock information from various stock exchanges (LSEG, NASDAQ, NYSE). 
+The app allows users to select stock exchanges, view stock data, and get stock values interactively.
 
 ---
 
@@ -71,19 +72,19 @@ LSEGChatbot/
     - Users can select a stock exchange to view available stocks.
     - Select and copy the text
 
-### **b. Stock Menu
+### **b. Stock Menu**
     - Provides a list of five stocks for the selected exchange.
     - Displays the current value of the selected stock.
     - Select and copy the text
     
-### **c. Error Handling
+### **c. Error Handling**
     - Handles invalid inputs gracefully.
     - Provides feedback for unsupported queries.
 
-### **d. Navigation
+### **d. Navigation**
     - Users can return to the Home Menu or go back to the Stock Menu at any time.
 
-### **e. Logging
+### **e. Logging**
     - All user interactions and errors are logged to the ./data/lsegchatbot.log file for monitoring and debugging purposes.
 ---
 
