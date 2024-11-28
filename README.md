@@ -66,7 +66,7 @@ LSEGChatbot/
             ├── README.md                              # Project documentation
             └── .dockerignore                          # Files to exclude from Docker builds
 ```
- 5. **Key Functionalities**:
+## **Key Functionalities**:
 ### **a. Home Menu**
     - Displays a list of stock exchanges (LSEG, NASDAQ, NYSE).
     - Users can select a stock exchange to view available stocks.
@@ -88,10 +88,10 @@ LSEGChatbot/
     - All user interactions and errors are logged to the ./data/lsegchatbot.log file for monitoring and debugging purposes.
 ---
 
-5. **Further Enhancements**
+## **Further Enhancements**
    - Using cache memory to remove the temp data folder usage
    - Taking user inputs using intellisense
       
-6. **Known Issues**
+## **Known Issues**
    - Chat history is not maintained because streamlit has an issue with rendering pandas dataframe in the chat history.
    - The issue exists even with using 'type' : 'table'
